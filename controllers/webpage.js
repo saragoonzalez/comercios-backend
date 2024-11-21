@@ -1,0 +1,13 @@
+const model = require('../models/webpage')
+
+exports.login = async (req, res) => await model.login(req, res)
+exports.create = async (req, res) => await model.create(req, res)
+exports.update = async (req, res) => await model.update(req, res)
+exports.deleteWebpage = async (req, res) => await model.deleteWebpage(req, res)
+exports.read = async (req, res) => await model.read(req, res)
+exports.readById = async (req, res) => await model.readById(req, res)
+exports.readByCity = async (req, res) => await model.readByCity(req, res)
+exports.readByCityActivity = async (req, res) => await model.readByCityActivity(req, res)
+exports.patch = async (req, res) => await model.patch(req, res)
+exports.uploadPhotos = async (req, res) => await model.uploadPhotos(req, res)
+exports.uploadTexts = async (req, res) => await model.uploadTexts(req, res)
